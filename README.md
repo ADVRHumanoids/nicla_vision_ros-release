@@ -1,6 +1,8 @@
 # Nicla Vision ROS package 
 :rocket: Check out the ROS2 version: [Nicla Vision ROS2 repository](https://github.com/ADVRHumanoids/nicla_vision_ros2.git) :rocket:
 
+[![Build Status](https://build.ros.org/buildStatus/icon?job=Ndev__nicla_vision_ros__ubuntu_focal_amd64&subject=Noetic%20Build)](https://build.ros.org/job/Ndev__nicla_vision_ros__ubuntu_focal_amd64/)
+
 ![Alt Text](assets/Nicla_ROSpkg_Architecture.png)
 
 -------------------
@@ -40,10 +42,10 @@ In this repository you can find the Python code optimised for receiving the data
 -------------------
 
 # Installation
-Step-by-step instructions on how to get the ROS package running (tested on ROS Noetic).
+Step-by-step instructions on how to get the ROS package running
 
-Only noetic version has been released for ROS1:   
-`sudo apt install ros-$ROS_DISTRO-nicla-vision-ros`  (to be released soon)  
+Binaries available for `noetic`:   
+`sudo apt install ros-$ROS_DISTRO-nicla-vision-ros`  
 For ROS2, check https://github.com/ADVRHumanoids/nicla_vision_ros2.git
 
 ### Source installation
@@ -69,7 +71,7 @@ It is possible to run a speech recognition feature directly on this module, that
 
 
 # Usage 
-Follow the below two steps for enjoying your Arduino Nicla Vision board with ROS!
+Follow the below steps for enjoying your Arduino Nicla Vision board with ROS!
 
 ## Run the ROS package
 -  Launch the package:
@@ -123,12 +125,16 @@ Here some useful links:
 Distributed under the Apache-2.0 License. See LICENSE for more information.
 
 # Citation 
-:raised_hands: If you use this work or take inspiration from it, please cite (publication in progress):
-```bash
-@inproceedings{delbianco2024dagana,
-  title={},
-  author={},
-  booktitle={},
-  year={}
+:raised_hands: If you use this work or take inspiration from it, please cite (to be published):
+```bibtex
+@inproceedings {DelBianco2024,
+  author = {Del Bianco, Edoardo and Torielli, Davide and Rollo, Federico and Gasperini, Damiano and Laurenzi, Arturo and Baccelliere, Lorenzo and Muratore, Luca and Roveri, Marco and Tsagarakis, Nikos G.},
+  booktitle={2024 IEEE-RAS 23rd International Conference on Humanoid Robots (Humanoids)}, 
+  title = {A High-Force Gripper with Embedded Multimodal Sensing for Powerful and Perception Driven Grasping},
+  year={2024},
+  volume={},
+  number={},
+  pages={},
+  doi={}
 }
 ```
